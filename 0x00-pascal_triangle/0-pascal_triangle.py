@@ -6,7 +6,7 @@ def pascal_triangle(n):
     """return pascal triangle"""
     pascalArr = []
     if n <= 0:
-        return([[]])
+        return([])
 
     for i in range(0, n):
         if i == 0:
